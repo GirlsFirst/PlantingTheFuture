@@ -1,6 +1,6 @@
 h1 {
   font-size: 50px;
-  font-family:fantasy;
+  font-family:monospace;
   text-align: center;
 color: white;
 }
@@ -8,7 +8,7 @@ color: white;
 h2
 {
   font-size: 30px;
-  font-family:fantasy;
+  font-family:monospace;
   text-align: center;
   color: grey;
 }
@@ -52,7 +52,7 @@ div {
 }
 
 p {
-  font-family:fantasy;
+  font-family:monospace;
   font-size: 30px;
 text-align: center;
 }
@@ -60,7 +60,7 @@ text-align: center;
 h4
 {font-size: 30px;
 color: black;
-font-family: fantasy;
+font-family: monospace;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -68,7 +68,7 @@ font-family: fantasy;
   float: left;
   width: 33.33%;
   padding: 15px;
-} s 
+} s
 
 /* Clear floats after the columns */
 .row:after {
