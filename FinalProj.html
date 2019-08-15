@@ -1,54 +1,103 @@
 <!DOCTYPE html>
-<html>
-	<head>
+<html lang="en">
+<head>
+<title>Solutions</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+}
 
+/* Style the header */
+.header {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
 
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: gray;
+}
 
-	</head>
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: lightblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-		<body>
+/* Change color on hover */
+.topnav a:hover {
+  background-color: pink;
+  color: black;
+}
 
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
 
-		<div class = "content">
-				<button id = "Recycle">Recycle</button>
-        <button id = "SolarE">Use Solar Energy</button>
-        <button id = "Vermi">Vermicomposting</button>
-        <button id = "Plants">Grow Plants</button>
-			</div>
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
 
-		<div id = "Recycle" class = "content">
-      <h2>Recycle</h2>
-      <div>
-        /*bold h1*/
-        <p>
-        <h1>What is recycling?</h1>
-        <h3> Converting waste into reusable material</h3>
-        </p>
-        /*bold h2*/
-       <table>
-         <tr>
-        <h2>
-          Why recycle?
-        </h2>
-        </tr>
-        <caption>
-          <h3> Reduce the pollution caused by waste </h3>
-        </p>
-        </caption>
-        <p>
-          <tr>
-          <h2>
-            What happens to the waste?
-          </h2>
-          </tr>
-          <caption>
-	         <iframe width="560" height="315" src="https://www.youtube.com/embed/_6xlNyWPpB8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </p>
-           </caption>
-           </div>
+<div class="header">
+  <h1>Planting the Future</h1>
+  <p>away from pollution, ahead toward solution</p>
+</div>
 
+<div class="topnav">
+  <a style = "width:25%" href="#">home</a>
+	<a style = "width:25%" href="#">plants</a>
+	<a style = "width:25%" href="#">contribute</a>
+	<a style = "width:25%" href="#">solutions</a>
+</div>
 
-	</body>
+<div class="row">
+  <div class="column">
+    <h2>Recycle</h2>
+  </div>
+
+  <div class="column">
+    <h2>Use Solar Energy</h2>
+
+  </div>
+
+  <div class="column">
+    <h2>Vermicomposting</h2>
+
+  </div>
+
+	<div class="column">
+    <h2>Grow more Plants</h2>
+
+  </div>
+</div>
+
+</body>
 </html>
