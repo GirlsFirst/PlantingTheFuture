@@ -12,6 +12,9 @@ h2
   text-align: center;
   color: grey;
 }
+h5 {
+  text-align: right;
+}
 
 /* Style the top navigation bar */
 .topnav {
@@ -43,9 +46,9 @@ img {
 }
 
 div {
-  font-size: 20px;
+  font-size: 17px;
   text-align:justify;
-  font-family:sans-serif;
+  font-family:monospace;
 }
 
 p {
@@ -56,6 +59,27 @@ text-align: center;
 
 h4
 {font-size: 30px;
-color: grey;
+color: black;
 font-family: fantasy;
+}
+
+/* Create three equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
 }
