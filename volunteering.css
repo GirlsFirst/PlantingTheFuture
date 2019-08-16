@@ -68,7 +68,7 @@ font-family: fantasy;
   float: left;
   width: 33.33%;
   padding: 15px;
-} s 
+} s
 
 /* Clear floats after the columns */
 .row:after {
