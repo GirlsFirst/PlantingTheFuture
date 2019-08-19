@@ -7,8 +7,30 @@ color: #0A6522;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   font-family: offside;
   color: white;
+}
+
+h5 {
+  font-size: 25px;
+  text-align: left;
+  font-family: inherit;
+  color: gold;
+}
+
+h6 {
+  font-size: 15px;
+  text-align: justify;
+  font-family: offside;
+  color: black;
+}
+
+h9 {
+  .column {
+    float: left;
+    width: 25%;
+    padding: 15px;    
+  }
 }
