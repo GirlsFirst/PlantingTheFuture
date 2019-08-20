@@ -36,7 +36,7 @@ div {
 }
 
 p {
-  font-family:fantasy;
+  font-family:monospace;
   font-size: 30px;
 text-align: center;
 }
@@ -44,7 +44,7 @@ text-align: center;
 h4
 {font-size: 30px;
 color: black;
-font-family: monospace;
+font-family: fantasy;
 }
 
 /* Create three equal columns that floats next to each other */
