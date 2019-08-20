@@ -9,7 +9,7 @@ color: #0A6522;
 h3 {
   font-size: 20px;
   text-align: center;
-  font-family: offside;
+  font-family: fantasy;
   color: white;
 }
 
@@ -31,6 +31,6 @@ h9 {
   .column {
     float: left;
     width: 25%;
-    padding: 15px;    
+    padding: 15px;
   }
 }
