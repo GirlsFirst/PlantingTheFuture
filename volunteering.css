@@ -1,5 +1,5 @@
 h1 {
-  
+
   font-family:monospace;
   text-align: center;
 
@@ -44,7 +44,7 @@ text-align: center;
 h4
 {font-size: 30px;
 color: black;
-font-family: fantasy;
+font-family: monospace;
 }
 
 /* Create three equal columns that floats next to each other */
